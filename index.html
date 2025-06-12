@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Envelope Animado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper" id="envelope">
+      <div class="lid one"></div>
+      <div class="lid two"></div>
+      <div class="envelope"></div>
+      <div class="letter">
+        <p>Hello</p>
+        <div class="hearts">
+          <span class="heart" style="--i:0; --x:-30px;"></span>
+          <span class="heart" style="--i:1; --x:10px;"></span>
+          <span class="heart" style="--i:2; --x:-20px;"></span>
+          <span class="heart" style="--i:3; --x:25px;"></span>
+          <span class="heart" style="--i:4; --x:5px;"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="openBtn">Abrir</button>
+      <button id="closeBtn">Fechar</button>
+    </div>
+
+    <div id="surpriseMessage">
+      <button id="surpriseBtn">Ainda não acabou... clique aqui</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
